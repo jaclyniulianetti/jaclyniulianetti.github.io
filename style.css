@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+#name{
+	color: rgb(170, 7, 100);
+	font-family: 'Sacramento';
+	text-align: center;
+	font-size: 55px;
+	margin: 20px;
+}
+#pic{
+	padding-top: 30px;
+}
+.aboutme{
+	color: black;
+	font-family: 'Raleway'; 
+	font-size: 16px;
+	text-align: justify;
+	padding: 22px;
+}
+.navlink{
+	text-align: center;
+	display: inline-block;
+	color: black;
+	padding: 10px;
+	margin: 20px;
+}
+.navlink:hover{
+	color: rgb(170, 7, 100);
+}
+#page{
+	color: black;
+	font-family: 'Raleway'; 
+	font-size: 40px;
+	text-align: center;
+	padding-top: 50px;
+}
+.gohome{
+	font-family: 'Sacramento';
+	color: rgb(170, 7, 100);
+	font-size: 50px;
+}
+.gohome:hover{
+	color: black;
+	text-decoration: none;
+}
