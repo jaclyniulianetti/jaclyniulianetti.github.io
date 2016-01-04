@@ -1,45 +1,51 @@
-@import url(https://fonts.googleapis.com/css?family=Sacramento);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-#name{
-	color: rgb(170, 7, 100);
-	font-family: 'Sacramento';
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#frontpage {
+    min-height: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    color:white;
+    padding: 5px;
+    text-align:center;
+}
+#frontpage a {
+    vertical-align: bottom;
+}
+h1 {
+	padding-top: 200px;
+}
+h2 {
+
+}
+.arrow {
 	text-align: center;
-	font-size: 55px;
-	margin: 20px;
+	color: rgb(255, 255, 255);
 }
-#pic{
-	padding-top: 30px;
+#intro {
+	min-height: 75%;
+    background-color: rgb(255, 255, 255);
+    text-align:justify;
+    padding: 10%;
 }
-.aboutme{
-	color: black;
-	font-family: 'Raleway'; 
-	font-size: 16px;
-	text-align: justify;
-	padding: 22px;
+#pic {
+	float: left;
+    margin-right: 30px;
 }
-.navlink{
-	text-align: center;
-	display: inline-block;
-	color: black;
-	padding: 10px;
-	margin: 20px;
+#aboutme {
+    margin-top: 35px;
+    margin-left: 30px;
 }
-.navlink:hover{
-	color: rgb(170, 7, 100);
+#contact {
+	min-height: 25%;
+    background-color:black;
+    text-align: center;
+    padding-top: 15px;
 }
-#page{
-	color: black;
-	font-family: 'Raleway'; 
-	font-size: 40px;
-	text-align: center;
-	padding-top: 50px;
-}
-.gohome{
-	font-family: 'Sacramento';
-	color: rgb(170, 7, 100);
-	font-size: 50px;
-}
-.gohome:hover{
-	color: black;
-	text-decoration: none;
+.contactlinks {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+	padding: 20px;
+	font-size: 25px;
 }
