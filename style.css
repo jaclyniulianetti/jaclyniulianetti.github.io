@@ -6,13 +6,16 @@ html, body {
 }
 #frontpage {
     min-height: 100%;
-    background-image: url(backgroundblur2.jpg);
+    background-image: url(backgroundblur.jpg);
     background-size: cover;
     padding: 5px;
-    text-align:center;
+    text-align: center;
 }
-#frontpage a {
-    vertical-align: bottom;
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
 }
 h1 {
     color: white;
@@ -28,11 +31,11 @@ h2 {
     font-weight: 600;
 }
 .arrow {
-    color: rgb(0, 0, 0);
+    color: rgb(50, 180, 180);
 	text-align: center;
 }
 .arrow:hover {
-    color: rgb(50, 180, 180);
+    color: rgb(255, 255, 255);
 }
 #intro {
 	min-height: 75%;
