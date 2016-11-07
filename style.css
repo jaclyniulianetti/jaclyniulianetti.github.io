@@ -1,73 +1,53 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-html, body {
-    height: 100%;
-    margin: 0;
-}
-#frontpage {
-    min-height: 100%;
-    background-image: url(backgroundblur.jpg);
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato');
+body {
+    background: url(background.jpeg) no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    padding: 5px;
-    text-align: center;
 }
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -20px;
+.info {
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 47%;
 }
 h1 {
-    color: white;
-    font-family: "Open Sans";
-    font-weight: 800;
+    font-family: 'Dancing Script';
+    text-align: left;
     font-size: 50px;
-	padding-top: 195px;
 }
-h2 {
-    color: white;
-    font-size: 40px;
-    font-family: "Open Sans";
-    font-weight: 600;
+p {
+    font-family: 'Lato';
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
 }
-.arrow {
-    color: rgb(50, 180, 180);
-	text-align: center;
+a {
+    color: #C43618;
 }
-.arrow:hover {
-    color: rgb(255, 255, 255);
-}
-#intro {
-	min-height: 75%;
-    background-color: rgb(255, 255, 255);
-    text-align:justify;
-    padding: 9%;
-}
-#pic {
-	float: left;
-    margin-right: 50px;
-}
-#aboutme {
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    margin: 30px;
-}
-#contact {
-	min-height: 25%;
-    background-color: rgb(50, 180, 180);
-    text-align: center;
-    padding: 20px;
-}
-.contactlinks:link, .contactlinks:visited {
-    font-family: "Open Sans";
-    color: rgb(255, 255, 255);
-    display: inline-block;
+a:hover {
+    color: #000;
     text-decoration: none;
-	padding: 20px;
-	font-size: 25px;
 }
-.contactlinks:hover {
-    font-family: "Open Sans";
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+@media (max-width: 1000px) {
+    body {
+        background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url(background.jpeg) no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (max-width: 786px) { 
+      body {
+        background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(background.jpeg) no-repeat center top fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .info {
+        width: 86%;
+        margin: 40px 0 0 7%;
+    }
 }
