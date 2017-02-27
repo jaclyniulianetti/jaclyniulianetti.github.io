@@ -1,26 +1,343 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<title>Jaclyn Iulianetti</title>
-		<link rel="shortcut icon" type="image/x-icon" href="icon.png" />
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<!-- Latest compiled and minified CSS -->
-	</head>
-	<body>
-		<div class="info">
-			<h1>hello</h1>
-			<p>I'm Jaclyn, a third year Computer Science and Design student at Northeastern University in Boston.  I'm currently working at <a target="_blank" href="http://www.blueport.com" alt="Blueport">Blueport Commerce</a> as a Front-end Development and UX Design Co-op.</p>
-			<p>In my spare time, I enjoy creating various art, design and development projects.  <a target="_blank" href="https://github.com/jaclyniulianetti" alt="Behance">Here</a> you can find a mix of sketches, mockups and paintings.  You can also see some of my development projects <a target="_blank" href="https://github.com/jaclyniulianetti" alt="Git">here</a>.</p>
-			<p>If you want to learn more about me, you can take a look at my <a target="_blank" href="Resume.pdf" alt="Resume">resume</a>, connect with me on <a target="_blank" href="https://www.linkedin.com/in/jaclyniulianetti" alt="LinkedIn">LinkedIn</a> or send me an <a href="mailto:iulianetti.j@husky.neu.edu" alt="Email">email</a>.</p>
-		</div>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	</body>
-</html>	
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jaclyn Iulianetti</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="less/agency.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Jaclyn Iulianetti</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">hello,</div>
+                <div class="intro-heading">I'm Jaclyn</div>
+                <a href="#portfolio" class="page-scroll btn btn-xl">See what I do</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/hub-icon.png" class="img-responsive portfolio-preview" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Hub Page Elements</h4>
+                        <p class="text-muted">UX Design</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/portfolio.png" class="img-responsive portfolio-preview" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Portfolio</h4>
+                        <p class="text-muted">Web Design & Development</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/simple-guide.png" class="img-responsive portfolio-preview" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>A Simple Guide</h4>
+                        <p class="text-muted">UX Design</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/myneu.png" class="img-responsive portfolio-preview" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>myNEU Redesign</h4>
+                        <p class="text-muted">UX & Web Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 about-me-picture">
+                    <img class="about-me-pic" src="img/Jaclyn-Iulianetti.jpg"/>
+                </div>
+                <div class="col-md-8">
+                    <p class="text-muted">I'm Jaclyn, a third year student majoring in Computer Science and Design,
+                        with a focus in Experience Design at Northeastern University in Boston.
+                        I just finished my first co-op at Blueport Commerce as a Front Developer and UX Designer and am
+                        lucky enough to be interning there as a UX Designer while in classes.</p>
+                    <p class="text-muted">Outside of work and class, I spend my time as the President of the DIY Craft Club,
+                        going to Zumba classes and baking.</p>
+                    <p class="text-muted">If you want to learn more about me, you can take a look at my <a target="_blank" href="resume.pdf" alt="Resume">resume</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="footer-btn" target="_blank" href="resume.pdf" alt="Resume">Resume</a>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a target="_blank" href="https://www.behance.net/iulianettif3c8"><i class="fa fa-behance"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/jaclyniulianetti" alt="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://github.com/jaclyniulianetti" alt="GitHub"><i class="fa fa-git"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <a class="footer-btn" href="mailto:iulianetti.j@husky.neu.edu" alt="Email">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Hub Page Elements</h2>
+                                <p class="item-intro text-muted">UX Design project from my co-op and internship at Blueport Commerce</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <p>IN PROGRESS</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Personal Portfolio</h2>
+                                <p class="item-intro text-muted">Web Design and Development personal project.</p>
+                                <p>I started my personal website as a personal project to teach myself HTML, CSS and Bootstrap.
+                                    Through updating my site over the past couple of years, I've discovered a passion for design and a joy in
+                                    web design.  I frequently play around with the site's design, whether I'm coding it or just sketching it
+                                    out in a notebook.
+                                </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>A Simple Guide</h2>
+                                <p class="item-intro text-muted">UX Design final project for Experience Design 1 Course.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>IN PROGRESS</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>myNEU Redesign</h2>
+                                <p class="item-intro text-muted">UX and Web Design final project for a Human Computer Interaction course I took during Spring 2016.</p>
+                                <p>Human Computer Interaction was one of the first introductions I had to UX Design.  For the final and semester-long project, I worked with a group of two other students to redesign our university’s student portal.  You can see our entire project and final report <a target="_blank" alt="my neu redesign" href="http://www.myneuredesign.wordpress.com">here,</a> and below I’ve outlined some key aspects of our design process.</p>
+
+                                <p>After figuring out the stakeholders in this project and creating personas, we then made Activity Design Scenarios based on metaphors and Task Models.  You can see an example of one of them below:</p>
+                                <p>Carol logs on to find her newly assigned random roommates for the next semester. Carol goes straight to Self-Service, and then Online-Housing.  She is brought to an overwhelming page of way too many links. It would take her a long time to click on each link and check whether it has the information about her roommates. Since she knows what she wants to find,  she decides to search on the the page by typing in “roommates”, “spring 2016”. A few seconds after she’s done that, a list of links are shown with a brief descriptions for each below each link. Under the first link, the description has “roommates” and “spring 2016” highlighted. Next to that, there are names that she is unfamiliar with. She selects that and it brings her to a page that has her roommates’ names and email addresses listed. She then contacts them via email to find out what she should bring to the apartment. </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/myneu-model.png" alt="task model">
+
+                                <p>After this, we brainstormed with sketches for the UI and brought our ideas together to create a paper prototype, pictured below.  We then conducted moderated usability testing with our paper prototype.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/myneu-paper.jpg" alt="">
+
+                                <p>Based the data we collected, we made changes and created a digital prototype.  This was then used for both heuristic and user evaluations.  From here, we continued to iterate through the process and ended up with the final product below.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/myneu-digital.png" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
